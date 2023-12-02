@@ -16,8 +16,6 @@
 <script>
     export default {}
 </script>
-<style scoped>
-    a .router-link-exact-active{
-        color: blueviolet !important;
-    }
+<style>
+    @import './navbar.scss';
 </style>

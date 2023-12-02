@@ -21,7 +21,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <p>Programador, gamer e viciado em jogos tower defense</p>
+                                    <p>Programador, gamer e fã de jogos de estratégia</p>
                                 </div>
                             </div>
                         </div>
@@ -36,13 +36,33 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-4 justify-content-center text-left text-light">
-                        </div>
-                        <div class="col-8">
-                        </div>
+                        <TechCard v-for="item in cardsTech" 
+                            :titulo="item.titulo" 
+                            :descricao="item.descricao">
+                        </TechCard>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+<script>
+    import TechCard from '../components/tech_card.vue';
+
+    export default {
+        components:{
+            TechCard
+        },
+        data(){
+            return {
+                cardsTech: [
+                    { 'titulo' : 'PHP', 'descricao' : 'uma das linguagens que mais atuei na minha carreira (com laravel, cakephp e tanto com blade template quanto com vuejs no front-end)'},
+                    { 'titulo' : 'Ruby', 'descricao' : 'fiz alguns cruds com rails mas não segui estudando'},
+                    { 'titulo' : 'Ruby', 'descricao' : 'fiz alguns cruds com rails mas não segui estudando'},
+                    { 'titulo' : 'Ruby', 'descricao' : 'fiz alguns cruds com rails mas não segui estudando'},
+                    { 'titulo' : 'Ruby', 'descricao' : 'fiz alguns cruds com rails mas não segui estudando'},
+                ]
+            };
+        }
+    }
+</script>
