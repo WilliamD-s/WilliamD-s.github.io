@@ -18,7 +18,7 @@
                     </p>
                     <p>
                         Depois de muitas noites em claro estudando, tanto para projetos da faculdade quanto para tentar algum estágio, consegui a primeira experiência,
-
+                        um estágio em desenvolvimento web com php.
                     </p>
                 </div>
             </div>
