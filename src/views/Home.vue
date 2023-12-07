@@ -36,10 +36,15 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <TechCard v-for="item in cardsTech" 
+                        <span v-for="item in cardsTech" 
+                        class="badge col">
+                            <img :src="item.logo" :alt="item.titulo" 
+                            style="width:50px;height:50px;">
+                        </span>
+                        <!-- <TechCard v-for="item in cardsTech" 
                             :titulo="item.titulo" 
                             :logo="item.logo">
-                        </TechCard>
+                        </TechCard> -->
                     </div>
                 </div>
             </div>

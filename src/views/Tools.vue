@@ -4,5 +4,5 @@
     </h2>
 </template>
 <style scoped>
-    @import './teste.scss';
+    @import 'Tools.scss';
 </style>

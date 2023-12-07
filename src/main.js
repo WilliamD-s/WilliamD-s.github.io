@@ -1,4 +1,3 @@
-import '@/assets/main.css'
 import 'bootstrap'
 import router from './routes';
 
