@@ -1,11 +1,30 @@
-$default-background-color: rgb(15, 44, 31);
+@import '@modules/bootstrap/scss/bootstrap.scss';
 
 *{
     margin: 0px;
     padding: 0px;
 }
 
+.glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(126, 77, 182, 0.308);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
 #main-app, html{
     min-height: 100% !important;
+    $default-background-color: rgb(81, 34, 109);
+
+    @media (prefers-color-scheme: light) {
+        $default-background-color: rgb(230, 233, 231);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        $default-background-color: rgb(81, 34, 109);
+    }
+
     background-color: $default-background-color;
 }
