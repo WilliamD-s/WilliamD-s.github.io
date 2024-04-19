@@ -1,9 +1,9 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="card">
+            <div class="card glass">
                 <div class="card-body">
-                    <div class="card-title">
+                    <div class="card-title text-light">
                         <h3>Sobre mim</h3>
                     </div>
                     <p>Focado, curioso e sempre pronto para ajudar</p>

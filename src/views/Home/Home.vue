@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="card bg-secondary text-light">
+            <div class="card glass text-light">
                 <div class="card-header">
                     Resumo
                 </div>

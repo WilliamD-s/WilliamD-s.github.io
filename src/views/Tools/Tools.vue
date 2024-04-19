@@ -1,7 +1,12 @@
 <template>
-    <h1 className="text-3xl font-bold underline">
-      Hello world! 
-    </h1>
+  <div class="container">
+    <div class="card glass">
+      <div class="card-header text-light">
+        Ferramentas
+      </div>
+      <div class="card-body"></div>
+    </div>
+  </div>
 </template>
 <style scoped>
     @import 'Tools.scss';

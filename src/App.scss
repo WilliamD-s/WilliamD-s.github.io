@@ -16,15 +16,9 @@
 
 #main-app, html{
     min-height: 100% !important;
-    $default-background-color: rgb(81, 34, 109);
-
-    @media (prefers-color-scheme: light) {
-        $default-background-color: rgb(230, 233, 231);
-    }
+    background: linear-gradient(229deg, rgba(211,238,238,1) 0%, rgba(72,186,125,1) 42%, rgba(0,236,255,1) 100%);
 
     @media (prefers-color-scheme: dark) {
-        $default-background-color: rgb(81, 34, 109);
+        background: linear-gradient(229deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 42%, rgba(128,0,255,1) 100%);
     }
-
-    background-color: $default-background-color;
 }
