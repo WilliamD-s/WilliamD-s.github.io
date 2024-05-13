@@ -1,0 +1,1 @@
+import{_ as o,r as c,o as r,c as t,a as n}from"./index-45798daa.js";const s={},a={class:"container"};function _(i,d){const e=c("router-view");return r(),t("div",a,[n(e)])}const l=o(s,[["render",_]]);export{l as default};
